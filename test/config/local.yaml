@@ -1,0 +1,16 @@
+service_name:
+  test
+
+redis:
+  mode: cluster
+  address:
+    - 127.0.0.1:7000
+    - 127.0.0.1:7001
+    - 127.0.0.1:7002
+    - 127.0.0.1:7003
+
+num:
+  1
+
+float_num:
+  1.11
