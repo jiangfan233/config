@@ -87,7 +87,7 @@ func main() {
 2)读取指定的配置项值
 
 ```go
-serviceName, _ := config.GetRawValue("service_name")
+serviceName, _ := config.GetStringValue("service_name")
 address, _ := config.GetRawValue("redis.address[0]")
 ```
 
